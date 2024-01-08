@@ -17,6 +17,14 @@ If you want to try these out:
 - To run the Vanilla version, just choose the folder `simple-chrome-extension-vanilla`.
 - Go to [example.com](example.com) or any other site to test functionality.
 
+## How to extend this example
+
+### Vanilla Example
+Just add more script functionality using JS and display it using HTML, linking the two with a `<script>` tag. Save and press refresh on the Chrome Extensions page to test your new functionality.
+
+### React Example
+Add functionality using your vast knowledge of TS and React (add more state, manipulate the DOM, etc). Once you have something you want to test, save and run `npm run build` and then refresh the extension. Once again, the `dist` folder is the one that Chrome reads, so just saving will not update anything. You have to rebuild it.
+
 ## References
 
 - [YouTube Tutorial from Learn to Code](https://www.youtube.com/watch?v=GGi7Brsf7js)
